@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"C:/Users/Administrator/Desktop/MIPS-CPU.v" \
+"../../../../MIPS_CPU.srcs/sim_1/new/sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

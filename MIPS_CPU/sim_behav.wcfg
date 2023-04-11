@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="14.276 ns"></ZoomEndTime>
+      <Cursor1Time time="27.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="160"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/sim/clk1GHz" type="logic">
+      <obj_property name="ElementShortName">clk1GHz</obj_property>
+      <obj_property name="ObjectShortName">clk1GHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/irom_1/a" type="array">
+      <obj_property name="ElementShortName">a[4:0]</obj_property>
+      <obj_property name="ObjectShortName">a[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/PC_1/offset" type="array">
+      <obj_property name="ElementShortName">offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/RsData" type="array">
+      <obj_property name="ElementShortName">RsData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RsData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/RtData" type="array">
+      <obj_property name="ElementShortName">RtData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RtData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/regs[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/regs[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/regs[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/regs[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/regs[31]" type="array">
+      <obj_property name="ElementShortName">[31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/ALU_1/ALURes" type="array">
+      <obj_property name="ElementShortName">ALURes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALURes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/ALU_1/input1" type="array">
+      <obj_property name="ElementShortName">input1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/ALU_1/input2" type="array">
+      <obj_property name="ElementShortName">input2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/Dram_1/mems[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/RsAddr" type="array">
+      <obj_property name="ElementShortName">RsAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RsAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/regFile_1/RtAddr" type="array">
+      <obj_property name="ElementShortName">RtAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RtAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/Dram_1/mems[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/CPU/Dram_1/mems[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+</wave_config>

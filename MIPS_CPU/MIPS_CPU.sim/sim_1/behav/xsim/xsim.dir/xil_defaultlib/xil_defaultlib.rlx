@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/Administrator/Desktop/MIPS-CPU.v,1681208021,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/sim.v,,ALU;DataSelector;Dram;MIPS;MUX32;MUX5;PC;ctr;irom;regFile;signext,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/sim.v,1680088751,verilog,,,,sim,,,,,,,,
