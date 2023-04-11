@@ -1,0 +1,16 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/sim.v,1680088751,verilog,,,,sim,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALU.v,1681224137,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/DataSelector.v,,ALU,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/DataSelector.v,1681224355,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Dram.v,,DataSelector,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Dram.v,1681224223,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MIPS-CPU.v,,Dram,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MIPS-CPU.v,1681224343,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MUX.v,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALU.v;G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/Dram.v;G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MUX.v;G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/PC.v;G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ctr.v;G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/irom.v;G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/regFile.v;G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/signext.v,MIPS,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MUX.v,1681224233,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/PC.v,,MUX32;MUX5,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/PC.v,1681224282,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ctr.v,,PC,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ctr.v,1681224347,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/irom.v,,ctr,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/irom.v,1681224319,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/regFile.v,,irom,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/regFile.v,1681224307,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/signext.v,,regFile,,,,,,,,
+G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/signext.v,1681224244,verilog,,G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/sim.v,,signext,,,,,,,,

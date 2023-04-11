@@ -1,0 +1,25 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: G:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_behav xil_defaultlib.sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 5 for port 'a' [G:/Vivado-Projects/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MIPS-CPU.v:113]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.ctr
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.MUX5
+Compiling module xil_defaultlib.MUX32
+Compiling module xil_defaultlib.DataSelector
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.irom
+Compiling module xil_defaultlib.Dram
+Compiling module xil_defaultlib.MIPS
+Compiling module xil_defaultlib.sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_behav
