@@ -1,6 +1,6 @@
 # MIPS_Lab
 
-更新于 2023.4.11
+更新于 2023.4.12
 
 ## 简介
 
@@ -12,7 +12,7 @@ Nexys4 DDR + MicroBlaze
 
 ## 软件平台
 
-Vivado 2018.2 + Xilinx SDK
+Vivado 2022.2 + Vitis 2022.2
 
 ---
 
