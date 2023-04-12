@@ -87,12 +87,23 @@ void My_ISR(void)
 {
     int status;
     status = Xil_In32(intc_ISR);  // 读取 ISR
+    if (status & 0x02) // ISR[1] = 1, 说明是 switch 中断
+    {
+        SwitchHandler();
+    }
     if (status & 0x01)  // ISR[0] = 1, 说明是 PushButton 中断
     {
         PushHandler();
     }
 
     Xil_Out32(intc_IAR,status); // 写 IAR 清除 INTC 中断标志
+}
+
+void SwitchHandler()
+{
+    sw = Xil_In8(sw_DATA);  // 读取 switch 开关的状态值
+    flag_Sw = 1;  // 告诉主函数，此时出现了开关的波动状态
+    Xil_Out32(sw_ISR, 0x01); // 写 1 清除中断标志位
 }
 
 void PushBtnHandler()
