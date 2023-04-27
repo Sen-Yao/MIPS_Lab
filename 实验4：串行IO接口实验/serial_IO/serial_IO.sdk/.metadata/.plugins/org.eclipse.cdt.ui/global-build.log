@@ -1,0 +1,1237 @@
+11:57:31 **** Build of project serial_IO_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+11:57:39 **** Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: serial_IO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO.elf  |tee "serial_IO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3112	    316	   3108	   6536	   1988	serial_IO.elf
+'Finished building: serial_IO.elf.size'
+' '
+11:58:02 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:78:5: warning: implicit declaration of function 'Xil_OUT16'; did you mean 'Xil_Out16'? [-Wimplicit-function-declaration]
+     Xil_OUT16(XPAR_AXI_QUAD_SPI_0_BASEADDR + XSP_DTROFFSET,0);
+     ^~~~~~~~~
+     Xil_Out16
+../src/helloworld.c:78:46: error: 'XSP_DTROFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+     Xil_OUT16(XPAR_AXI_QUAD_SPI_0_BASEADDR + XSP_DTROFFSET,0);
+                                              ^~~~~~~~~~~~~
+                                              XSP_DTR_OFFSET
+../src/helloworld.c:78:46: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'My_ISR':
+../src/helloworld.c:86:58: warning: implicit declaration of function 'xil_In32'; did you mean 'Xil_In32'? [-Wimplicit-function-declaration]
+     Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_IAR_OFFSET, xil_In32(XPAR_AXI_INTC_0_BASEADDR + XSP_ISR_OFFSET));
+                                                          ^~~~~~~~
+                                                          Xil_In32
+../src/helloworld.c:86:94: error: 'XSP_ISR_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_IAR_OFFSET, xil_In32(XPAR_AXI_INTC_0_BASEADDR + XSP_ISR_OFFSET));
+                                                                                              ^~~~~~~~~~~~~~
+                                                                                              XSP_SR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+11:58:21 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:78:5: warning: implicit declaration of function 'Xil_OUT16'; did you mean 'Xil_Out16'? [-Wimplicit-function-declaration]
+     Xil_OUT16(XPAR_AXI_QUAD_SPI_0_BASEADDR + XSP_DTR_OFFSET,0);
+     ^~~~~~~~~
+     Xil_Out16
+../src/helloworld.c: In function 'My_ISR':
+../src/helloworld.c:86:94: error: 'XSP_ISR_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_IAR_OFFSET, Xil_In32(XPAR_AXI_INTC_0_BASEADDR + XSP_ISR_OFFSET));
+                                                                                              ^~~~~~~~~~~~~~
+                                                                                              XSP_SR_OFFSET
+../src/helloworld.c:86:94: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] 错误 1
+11:59:06 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:78:5: warning: implicit declaration of function 'Xil_OUT16'; did you mean 'Xil_Out16'? [-Wimplicit-function-declaration]
+     Xil_OUT16(XPAR_AXI_QUAD_SPI_0_BASEADDR + XSP_DTR_OFFSET,0);
+     ^~~~~~~~~
+     Xil_Out16
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+E:\20230426\serial_IO\serial_IO.sdk\serial_IO\Debug/../src/helloworld.c:78: undefined reference to `Xil_OUT16'
+collect2.exe: error: ld returned 1 exit status
+make: *** [serial_IO.elf] 错误 1
+11:59:16 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO.elf  |tee "serial_IO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2456	    260	   3116	   5832	   16c8	serial_IO.elf
+'Finished building: serial_IO.elf.size'
+' '
+12:20:35 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:95:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:95:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:95:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:96:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:97:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:97:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:129:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:129:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:133:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:23:07 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:92:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:92:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:92:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:93:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:94:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:94:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:126:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:126:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:130:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:24:27 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:92:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:92:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:92:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:93:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:94:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:94:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:126:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:126:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:130:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:28:16 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:80:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:69:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:84:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:84:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:84:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:85:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:86:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:86:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:127:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:127:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:131:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:30:44 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:70:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:85:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:129:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:129:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:133:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:31:24 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:70:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:85:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:129:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:129:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:133:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+../src/helloworld.c: In function 'TimerHandler':
+../src/helloworld.c:137:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:137:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:141:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:38:17 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:70:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:85:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:129:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:129:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:133:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+../src/helloworld.c: In function 'TimerHandler':
+../src/helloworld.c:137:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:137:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:141:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:40:48 **** Clean-only build of configuration Debug for project serial_IO ****
+make clean 
+rm -rf  ./src/edit_serial_IO.o ./src/helloworld.o ./src/platform.o  ./src/edit_serial_IO.d ./src/helloworld.d ./src/platform.d  serial_IO.elf.size  serial_IO.elf
+' '
+12:40:48 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:70:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:85:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:129:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:129:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:133:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+../src/helloworld.c: In function 'TimerHandler':
+../src/helloworld.c:137:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:137:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:141:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:43:42 **** Clean-only build of project serial_IO_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_7/src -s clean 
+make -C microblaze_0/libsrc/gpio_v4_3/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C microblaze_0/libsrc/spi_v4_4/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_7/src -s clean 
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+12:43:43 **** Build of project serial_IO_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:69:2: warning: #warning "May wait for more than the specified delay" [-Wcpp]
+ #warning "May wait for more than the specified delay"
+  ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+12:44:54 **** Build of project serial_IO_2_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+12:45:14 **** Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3120	    324	   3108	   6552	   1998	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+12:48:59 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:70:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:85:41: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'My_ISR':
+../src/helloworld.c:116:3: warning: implicit declaration of function 'SwitchHandler'; did you mean 'TimerHandler'? [-Wimplicit-function-declaration]
+   SwitchHandler();
+   ^~~~~~~~~~~~~
+   TimerHandler
+../src/helloworld.c: At top level:
+../src/helloworld.c:131:6: warning: conflicting types for 'SwitchHandler'
+ void SwitchHandler()
+      ^~~~~~~~~~~~~
+../src/helloworld.c:116:3: note: previous implicit declaration of 'SwitchHandler' was here
+   SwitchHandler();
+   ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:133:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:137:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+../src/helloworld.c: In function 'SPIHandler':
+../src/helloworld.c:141:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:145:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:49:05 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:70:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:85:41: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'My_ISR':
+../src/helloworld.c:116:3: warning: implicit declaration of function 'SwitchHandler'; did you mean 'TimerHandler'? [-Wimplicit-function-declaration]
+   SwitchHandler();
+   ^~~~~~~~~~~~~
+   TimerHandler
+../src/helloworld.c: At top level:
+../src/helloworld.c:131:6: warning: conflicting types for 'SwitchHandler'
+ void SwitchHandler()
+      ^~~~~~~~~~~~~
+../src/helloworld.c:116:3: note: previous implicit declaration of 'SwitchHandler' was here
+   SwitchHandler();
+   ^~~~~~~~~~~~~
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:133:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:137:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+../src/helloworld.c: In function 'SPIHandler':
+../src/helloworld.c:141:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:145:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:49:33 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:70:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:85:41: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:133:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:137:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+../src/helloworld.c: In function 'SPIHandler':
+../src/helloworld.c:141:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:145:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:49:47 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:85:41: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:133:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:137:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+../src/helloworld.c: In function 'SPIHandler':
+../src/helloworld.c:141:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:145:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+12:51:31 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6892	    264	   3116	  10272	   2820	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+12:53:15 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6756	    264	   3116	  10136	   2798	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+13:02:41 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6804	    264	   3116	  10184	   27c8	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+13:03:46 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6804	    264	   3116	  10184	   27c8	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+13:11:07 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6840	    264	   3112	  10216	   27e8	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+13:15:52 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6912	    264	   3120	  10296	   2838	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+13:28:26 **** Build of project serial_IO_2_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+13:28:44 **** Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3120	    324	   3108	   6552	   1998	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+13:28:46 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+make: Nothing to be done for `all'.
+13:32:27 **** Clean-only build of configuration Debug for project serial_IO_2 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  serial_IO_2.elf.size  serial_IO_2.elf
+' '
+13:32:27 **** Auto Build of configuration Debug for project serial_IO_2 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../serial_IO_2_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: serial_IO_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_2_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_2.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_2.elf  |tee "serial_IO_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6912	    264	   3120	  10296	   2838	serial_IO_2.elf
+'Finished building: serial_IO_2.elf.size'
+' '
+13:33:55 **** Build of project serial_IO_3_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+13:34:04 **** Build of configuration Debug for project serial_IO_3 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_3_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../serial_IO_3_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: serial_IO_3.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_3_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_3.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_3.elf  |tee "serial_IO_3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3120	    324	   3108	   6552	   1998	serial_IO_3.elf
+'Finished building: serial_IO_3.elf.size'
+' '
+13:34:07 **** Auto Build of configuration Debug for project serial_IO_3 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_3_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_3.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_3_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_3.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_3.elf  |tee "serial_IO_3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6912	    264	   3120	  10296	   2838	serial_IO_3.elf
+'Finished building: serial_IO_3.elf.size'
+' '
+13:35:59 **** Auto Build of configuration Debug for project serial_IO_3 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_3_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_3.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_3_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_3.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_3.elf  |tee "serial_IO_3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6956	    264	   3124	  10344	   2868	serial_IO_3.elf
+'Finished building: serial_IO_3.elf.size'
+' '

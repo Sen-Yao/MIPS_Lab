@@ -1,0 +1,68 @@
+12:40:48 **** Auto Build of configuration Debug for project serial_IO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:2: warning: implicit declaration of function 'Initialize' [-Wimplicit-function-declaration]
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for 'Initialize'
+ void Initialize()
+      ^~~~~~~~~~
+../src/helloworld.c:70:2: note: previous implicit declaration of 'Initialize' was here
+  Initialize();
+  ^~~~~~~~~~
+../src/helloworld.c: In function 'Initialize':
+../src/helloworld.c:85:14: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+              XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:85:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:41: error: 'XGPIO_TRI_OFFSET' undeclared (first use in this function); did you mean 'XSP_SR_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_TRI_OFFSET, 0xff);  // sw 作为输入
+                                         ^~~~~~~~~~~~~~~~
+                                         XSP_SR_OFFSET
+../src/helloworld.c:86:41: error: 'XGPIO_IER_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_TRI_OFFSET'?
+     Xil_Out8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_IER_OFFSET, 0x01);  // 端口 0 打开
+                                         ^~~~~~~~~~~~~~~~
+                                         XGPIO_TRI_OFFSET
+../src/helloworld.c:87:42: error: 'XGPIO_GIE_OFFSET' undeclared (first use in this function); did you mean 'XGPIO_IER_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                          ^~~~~~~~~~~~~~~~
+                                          XGPIO_IER_OFFSET
+../src/helloworld.c:87:60: error: 'XGPIO_GIE_GINTR_ENABLE_MASK' undeclared (first use in this function); did you mean 'XSP_GINTR_ENABLE_MASK'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_GIE_OFFSET, XGPIO_GIE_GINTR_ENABLE_MASK);  // sw 中断启动
+                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                            XSP_GINTR_ENABLE_MASK
+../src/helloworld.c: In function 'SwitchHandler':
+../src/helloworld.c:129:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:129:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:133:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+../src/helloworld.c: In function 'TimerHandler':
+../src/helloworld.c:137:15: error: 'XPAR_AXI_GPIO_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXI_INTC_0_BASEADDR'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+               ^~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_AXI_INTC_0_BASEADDR
+../src/helloworld.c:137:42: error: 'XGPIO_DATA_OFFSET' undeclared (first use in this function); did you mean 'XSP_DTR_OFFSET'?
+  sw = Xil_In8(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_DATA_OFFSET);  // 读取 switch 开关的状态值
+                                          ^~~~~~~~~~~~~~~~~
+                                          XSP_DTR_OFFSET
+../src/helloworld.c:141:42: error: 'XGPIO_ISR_OFFSET' undeclared (first use in this function); did you mean 'XIN_ISR_OFFSET'?
+     Xil_Out32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET, Xil_In32(XPAR_AXI_GPIO_0_BASEADDR + XGPIO_ISR_OFFSET));
+                                          ^~~~~~~~~~~~~~~~
+                                          XIN_ISR_OFFSET
+make: *** [src/helloworld.o] 错误 1
+
+12:40:49 Build Finished (took 219ms)
+

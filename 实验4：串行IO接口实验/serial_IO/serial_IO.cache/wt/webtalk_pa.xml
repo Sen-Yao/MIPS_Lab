@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Apr 26 13:36:37 2023">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="5ab88a48b3dc4495a3e0d9af2fd1c46d" type="ProjectID"/>
+<property name="ProjectIteration" value="4" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="1" type="JavaHandler"/>
+<property name="AutoConnectPort" value="3" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="2" type="JavaHandler"/>
+<property name="CreateBlockDesign" value="1" type="JavaHandler"/>
+<property name="CreateTopHDL" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="14" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="2" type="JavaHandler"/>
+<property name="NewExportHardware" value="7" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="6" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="2" type="JavaHandler"/>
+<property name="RunBitgen" value="6" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="2" type="JavaHandler"/>
+<property name="ValidateRSBDesign" value="3" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+<property name="ZoomIn" value="7" type="JavaHandler"/>
+<property name="ZoomOut" value="10" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN" value="1" type="GuiHandlerData"/>
+<property name="AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES" value="1" type="GuiHandlerData"/>
+<property name="AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES" value="1" type="GuiHandlerData"/>
+<property name="ApplyRSBMultiAutomationDialog_CHECKBOX_TREE" value="4" type="GuiHandlerData"/>
+<property name="BaseDialog_CANCEL" value="7" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="39" type="GuiHandlerData"/>
+<property name="BaseDialog_YES" value="5" type="GuiHandlerData"/>
+<property name="BoardTreePanel_BOARD_TREE_PANEL" value="7" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_MESSAGES" value="1" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="4" type="GuiHandlerData"/>
+<property name="ConstraintsChooserPanel_ADD_FILES" value="1" type="GuiHandlerData"/>
+<property name="ConstraintsChooserPanel_CREATE_FILE" value="1" type="GuiHandlerData"/>
+<property name="CoreTreeTablePanel_CORE_TREE_TABLE" value="7" type="GuiHandlerData"/>
+<property name="CreateConstraintsFilePanel_FILE_NAME" value="1" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="15" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="10" type="GuiHandlerData"/>
+<property name="MainMenuMgr_CHECKPOINT" value="25" type="GuiHandlerData"/>
+<property name="MainMenuMgr_CONSTRAINTS" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EDIT" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EXPORT" value="22" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="32" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FLOW" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IMPORT" value="6" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IP" value="27" type="GuiHandlerData"/>
+<property name="MainMenuMgr_PROJECT" value="17" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TEXT_EDITOR" value="27" type="GuiHandlerData"/>
+<property name="PACommandNames_ADD_SOURCES" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_CONNECT_PORTS" value="3" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_CONNECT_TARGET" value="2" type="GuiHandlerData"/>
+<property name="PACommandNames_CREATE_TOP_HDL" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_EXPORT_HARDWARE" value="7" type="GuiHandlerData"/>
+<property name="PACommandNames_LAUNCH_HARDWARE" value="4" type="GuiHandlerData"/>
+<property name="PACommandNames_SAVE_RSB_DESIGN" value="2" type="GuiHandlerData"/>
+<property name="PACommandNames_VALIDATE_RSB_DESIGN" value="3" type="GuiHandlerData"/>
+<property name="PACommandNames_ZOOM_IN" value="7" type="GuiHandlerData"/>
+<property name="PACommandNames_ZOOM_OUT" value="10" type="GuiHandlerData"/>
+<property name="RDICommands_DELETE" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_LINE_COMMENT" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_SAVE_FILE" value="1" type="GuiHandlerData"/>
+<property name="RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION" value="1" type="GuiHandlerData"/>
+<property name="RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION" value="3" type="GuiHandlerData"/>
+<property name="RSBExternalPortPropPanels_NAME" value="3" type="GuiHandlerData"/>
+<property name="RSBNetPropPanels_NAME" value="6" type="GuiHandlerData"/>
+<property name="SaveProjectUtils_SAVE" value="4" type="GuiHandlerData"/>
+<property name="SystemBuilderView_ADD_IP" value="5" type="GuiHandlerData"/>
+<property name="SystemTreeView_SYSTEM_TREE" value="1" type="GuiHandlerData"/>
+<property name="TaskBanner_CLOSE" value="2" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="4" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="3" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

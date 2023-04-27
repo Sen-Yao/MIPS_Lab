@@ -1,0 +1,21 @@
+13:35:59 **** Auto Build of configuration Debug for project serial_IO_3 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../serial_IO_3_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: serial_IO_3.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../serial_IO_3_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "serial_IO_3.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: serial_IO_3.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size serial_IO_3.elf  |tee "serial_IO_3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6956	    264	   3124	  10344	   2868	serial_IO_3.elf
+'Finished building: serial_IO_3.elf.size'
+' '
+
+13:35:59 Build Finished (took 653ms)
+

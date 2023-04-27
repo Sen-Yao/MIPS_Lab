@@ -14,6 +14,12 @@
 
 参考代码参见学习通相关视频。只需要对 button_in.c 文件稍作修改，按照 C 语言的格式进行表示即可。
 
+# 工程环境
+
+Vivado 2018.2 + SDK，且需要 Nexys4 DDR 开发板支持，可以从 https://github.com/Digilent/vivado-boards 下载。
+
 # 代码说明
+
+整个工程文件为 parallel_IO_2018.2_for_class。如果直接打开可能需要重新对工程文件进行引用。因此不建议直接打开工程。
 
 代码全都放在 source 文件下，其中 Interrupt_control.c 为中断控制，Program_control.c 为程序控制。注意，头文件需要自行引用，否则会报错
