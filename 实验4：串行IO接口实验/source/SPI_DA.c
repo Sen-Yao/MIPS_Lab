@@ -23,7 +23,7 @@ void SPIHandler();
 void SwitchHandler();
 
 short flag_Sw,flag_SPI,flag_Timer;  // 按键标志位
-short sw;  // 按键赋值
+short sw = 15;  // 按键赋值
 
 int to_set_value; // 在本次试验中，采用减计数。由于本次实验开发板采用的是 Nexys4 DDR，其频率为 100 MHz，因此我们在配置数时，需要做对应的调整。
 
@@ -38,7 +38,6 @@ int main()
             xil_printf("flag_Sw = %X, Switch Interrupt Triggered! The result is 0x%X\n", flag_Sw, sw);
             // 开关拨动，说明此时应写入的数据 to_set_value 发生了改变。首先算出需要的对应的 to_set_value。
             // 题目要求周期最长为 1s，最短为 60ms 左右。由于此 DA 芯片输入最大为 4096，如果周期为 1s，而计时周期为 100 MHz，则每过 1s/4096 = 244 约等于 256 个周期。因此我们可以将 to_set_value 设置为：
-            to_set_value = 16 * (sw + 1);
             xil_printf("Now the period is %d\n", to_set_value * 4);
             // 重新设置完周期后，在下一个 Timer 中断时，就会装在新的 to_set_value，从而开始采用新的周期
             flag_Sw = 0;
@@ -54,7 +53,8 @@ int main()
             // xil_printf("SPI Interrupt Triggered!\n");
             flag_SPI = 0;
     	    Xil_Out16(XPAR_AXI_QUAD_SPI_0_BASEADDR + XSP_DTR_OFFSET,volt);//启动 SPI 使能，产生时钟和片选信号。数字信号对应的有效位为低 12 位，因此在这里将volt 与 0xfff 相与之后再输出
-    	    xil_printf("volt is %d\n", volt);
+    	    // while((Xil_In32(XPAR_AXI_QUAD_SPI_0_BASEADDR + 0x64)&0x4) == 0x4);
+    	    for (int i = 0; i<10000; i++);
         }
 
 
@@ -110,14 +110,13 @@ void My_ISR(){
 	}
 	if (status & 0x02) //ISR[1] = 1, 说明是 SPI 中断
 	{
-		xil_printf("SPITriggered!\n");
+		//xil_printf("SPITriggered!\n");
 		SPIHandler();
 
 	}
     if (status & 0x01) //ISR[0] = 1, 说明是 Timer 中断
 	{
 		//xil_printf("TimerTriggered!\n");
-    	// xil_printf("Now the period is %d\n", to_set_value * 4);
 		TimerHandler();
 
 	}
@@ -126,6 +125,13 @@ void My_ISR(){
     Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_IAR_OFFSET, 0xffffffff);  // 清除所有中断请求
     Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_IER_OFFSET, 0x07); // intc[2:0] 启动
     Xil_Out32(XPAR_AXI_INTC_0_BASEADDR + XIN_MER_OFFSET, 0x07);// intc[2:0] 启动
+    int tcsr0 = Xil_In32(XPAR_TMRCTR_0_BASEADDR + XTC_TCSR_OFFSET);  // tcsr0 意思是 定时器 0 控制寄存器，有 32 位，但只有 0～10 位有效。这里我们读出 TCSR 寄存器，写入这里的变量 tcsr0
+    Xil_Out32(XPAR_TMRCTR_0_BASEADDR + XTC_TLR_OFFSET, to_set_value);  // TLR 为预置数寄存器，这里需要写 LDR 寄存器，将其赋值为 to_set_value 配置计数初始值
+    tcsr0 = Xil_In32(XPAR_TMRCTR_0_BASEADDR+XTC_TLR_OFFSET);  // 更新 tcsr0 中的数据
+    Xil_Out32(XPAR_TMRCTR_0_BASEADDR + XTC_TCSR_OFFSET, tcsr0 | XTC_CSR_LOAD_MASK);  // LOAD = 1，将 TLR 装载到 TCR，准备开始计数
+    Xil_Out32(XPAR_TMRCTR_0_BASEADDR + XTC_TCSR_OFFSET, tcsr0 | ((XTC_CSR_ENABLE_TMR_MASK | XTC_CSR_DOWN_COUNT_MASK | XTC_CSR_AUTO_RELOAD_MASK) & (~XTC_CSR_LOAD_MASK)));  // ENT = 1，运行定时器，UDT = 1, 减计数 ，自动装载:ARHT=1,LOAD =0;
+    Xil_Out32(XPAR_TMRCTR_0_BASEADDR + XTC_TCSR_OFFSET, Xil_In32(XPAR_TMRCTR_0_BASEADDR + XTC_TCSR_OFFSET) | XTC_CSR_INT_OCCURED_MASK|XTC_CSR_ENABLE_INT_MASK); // 清除中断标志：写 TINT=1（这是 Timer 的特定寄存器功能）;
+
 }
 
 void SwitchHandler()
@@ -161,8 +167,8 @@ void TimerHandler()
     	volt = 0;
     }
 
-    to_set_value = 160000 * (sw + 1);
-    // xil_printf("Now the period is %d\n", to_set_value * 4);
+    to_set_value = 960 * (sw + 1);
+    //xil_printf("Now sw is %d, the period is %d\n", sw, to_set_value * 4);
     // 每次 Timer 中断触发后，理论上需要重新装载计时器
     int tcsr0 = Xil_In32(XPAR_TMRCTR_0_BASEADDR + XTC_TCSR_OFFSET);  // tcsr0 意思是 定时器 0 控制寄存器，有 32 位，但只有 0～10 位有效。这里我们读出 TCSR 寄存器，写入这里的变量 tcsr0
     Xil_Out32(XPAR_TMRCTR_0_BASEADDR + XTC_TLR_OFFSET, to_set_value);  // TLR 为预置数寄存器，这里需要写 LDR 寄存器，将其赋值为 to_set_value 配置计数初始值
