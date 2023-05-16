@@ -1,15 +1,8 @@
-// 中断方式 button 按键以及 switch 输入的测试程序
-
-// #include "xparameters.h"    //The hardware configuration describing constants
 #include "xintc_l.h"  // Interrupt Controller API functions
 #include "stdio.h"
 #include "xil_io.h"     // I0 functions
 #include "xgpio_l.h"
 #include "xtmrctr.h"
-// #include "xil_types.h"
-// #include "mb_interface.h"
-// #include "xgpio.h"      // GPIO API functions
-
 
 void My_ISR() __attribute__ ((interrupt_handler));
 
