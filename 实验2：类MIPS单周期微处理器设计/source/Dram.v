@@ -18,7 +18,7 @@ module Dram(
     end
     always @(negedge clk)
         if (we)  begin
-        mems[a] = d;end // 若允许写入，则在失重下降沿将输入信号 d 写入对应的内存空间
+        mems[a] = d;end // 若允许写入，则在时钟下降沿将输入信号 d 写入对应的内存空间
     always @(re or a) begin
         if (re) begin spo = mems[a]; end end // 若允许读，则将地址 a 中的数据读给 spo
 endmodule

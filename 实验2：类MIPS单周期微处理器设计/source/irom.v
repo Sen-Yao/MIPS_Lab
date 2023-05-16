@@ -28,3 +28,4 @@ module irom(
     end
     always @(posedge clk) begin spo = strs[a]; end
 endmodule
+
