@@ -1,3 +1,10 @@
+// 所有实验任务要求采用中断方式实现，中断方式时，GPIO 输入、延时、UART\SPI 接口通信都采用中断方式实现。
+// 利用 SPI IP 核，timer IP 核以及 DA 模块，控制 DA 模块输出周期可变锯齿波，且锯齿波周期由 switch 控制。
+// 锯齿波周期最长约为 1 s，最短约为 60 ms 利用 SPI IP 核，timer IP 核以及 DA 模块，控制 DA 模块输出周期可变锯齿波，且锯齿波周期由 switch 控制。
+// 锯齿波周期最长约为 1 s，最短约为 60 ms
+// 提示：switch 输入的数据，控制定时计数器的定时时间，定时计数器定时时间到，输出一个新数据到 DA 转换器。
+
+
 // 说明
 // SPI 用于连接 DA 模块，在板子上，将 DA 接 Pmod JA
 
@@ -56,8 +63,6 @@ int main()
     	    // while((Xil_In32(XPAR_AXI_QUAD_SPI_0_BASEADDR + 0x64)&0x4) == 0x4);
     	    for (int i = 0; i<10000; i++);
         }
-
-
     }
 }
 void Initialize()
